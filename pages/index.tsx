@@ -15,7 +15,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className='fixed top-0 left-0 right-0  sm:sticky '>
+      <header className='fixed top-0 left-0 right-0 '>
         <nav className="bg-gray-800 p-4 flex justify-between items-center">
           <div className="text-white text-lg">Logo</div>
           <div className="text-white text-lg sm:flex hidden">
@@ -38,7 +38,7 @@ export default function Home() {
           <a href="#" className="block	 p-2">Contact</a>
         </div>
       </header>
-      <main className='p-5 md:mx-32 mt-14 sm:mt-0'>
+      <main className='p-5 md:mx-32 mt-14 sm:mt-20'>
         <div className="flex justify-between flex-col sm:flex-row">
 
           <h1 className="text-4xl font-bold leading-tight text-gray-800  sm:text-2xl lg:text-3xl">Dashboard</h1>
