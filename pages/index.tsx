@@ -5,7 +5,9 @@ import Image from 'next/image';
 export default function Home() {
   function toggleMenu() {
     var mobileMenu = document.getElementById('mobileMenu');
-    mobileMenu.classList.toggle('hidden');
+    if (mobileMenu) {
+      mobileMenu.classList.toggle('hidden');
+    }
   }
   return (
     <>
